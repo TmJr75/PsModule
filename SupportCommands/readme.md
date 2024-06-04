@@ -1,0 +1,1 @@
+This readme is for the SupportCommands folder, SupportCommands related scripts and tools will be hosted here.
