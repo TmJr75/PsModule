@@ -1,10 +1,7 @@
 # Create a module using PowerShell
 
 # New-Module -Name "PSModule" 
-
-$moduleName = "PsModule"
-
-Function New-TmModule {
+Function New-PsModule {
 
     [CmdletBinding()]
     Param(
@@ -55,4 +52,3 @@ New-ModuleManifest -Path "$sourcefolder\$moduleName\$moduleName.psd1" `
     -AliasesToExport $AliasesToExport
 }
 
-New-TmModule -moduleName "TMTestingModule4" -Author "Tore Melberg" -CompanyName "MelbergNet" -PowerShellVersion 5.1 -sourceFolder "c:\temp"
